@@ -1,6 +1,6 @@
 # Hi, I'm Eduard Kharaev 👋
 
-## Applied AI Engineer / AI Platform Architect
+## Applied AI / Forward-Deployed Engineer · AI Platform Architect
 
 I design, build and operate production AI systems end-to-end, as the sole technical owner:
 computer vision pipelines, LLM agents, GPU inference infrastructure, business integrations
@@ -24,5 +24,5 @@ Python · FastAPI · PostgreSQL · PyTorch · HuggingFace · vLLM · Qdrant · p
 
 ### Contact
 
-Open to senior AI engineering and platform architecture roles, relocation-ready.
+Open to senior Applied AI / Forward-Deployed engineering and platform architecture roles, relocation-ready.
 haraev87@gmail.com · TG [@Edharaev](https://t.me/Edharaev)
