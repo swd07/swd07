@@ -11,7 +11,10 @@
 [![Portfolio](https://img.shields.io/badge/AI_PORTFOLIO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/ai-platform-portfolio)
 [![Telegram](https://img.shields.io/badge/TELEGRAM-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Edharaev)
 [![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:haraev87@gmail.com)
-![Profile Views](https://komarev.com/ghpvc/?username=swd07&label=PROFILE+VIEWS&color=238636&style=for-the-badge)
+
+<br/>
+
+<sub><b>Open to Senior Applied AI · Forward-Deployed Engineering · AI Platform Architecture roles</b> · international relocation</sub>
 
 </div>
 
@@ -19,7 +22,7 @@
 
 ## ⚡ Production AI, end to end
 
-I design, build and operate **production AI systems as the sole technical owner** — from computer-vision models and GPU inference to LLM agents, business integrations, backend/data layers and product interfaces.
+I design, build and operate **production AI systems with end-to-end technical ownership** — from computer-vision models and GPU inference to LLM agents, business integrations, backend/data layers and product interfaces.
 
 My bias is toward **measurable impact, honest evaluation and systems that stay reliable after the demo is over**.
 
@@ -56,6 +59,8 @@ My bias is toward **measurable impact, honest evaluation and systems that stay r
 <td width="25%" align="center"><b>📈 ~60% AI channel</b><br/><sub>share of production orders</sub></td>
 </tr>
 </table>
+
+> 🔒 **Most production code is private** because it runs inside commercial systems with proprietary data and business integrations. The public repositories below contain **sanitized case studies, architecture, metrics, evaluation methodology and runnable examples**.
 
 ## 👁 What production looks like
 
