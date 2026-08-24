@@ -1,0 +1,64 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="90" y1="60" x2="900" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1005 95) rotate(137) scale(320 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#30363D" stroke-opacity="0.9"/>
+  <ellipse cx="1010" cy="110" rx="245" ry="190" fill="url(#glow)" filter="url(#blur)"/>
+
+  <!-- subtle engineering grid -->
+  <g opacity="0.12" stroke="#8B949E">
+    <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200"/>
+    <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
+  </g>
+
+  <!-- left accent -->
+  <rect x="70" y="64" width="6" height="230" rx="3" fill="url(#accent)"/>
+  <circle cx="73" cy="64" r="7" fill="#58A6FF"/>
+
+  <text x="104" y="105" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="4">PRODUCTION AI · SYSTEMS · ENGINEERING</text>
+  <text x="102" y="164" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="750" letter-spacing="1">EDUARD KHARAEV</text>
+  <text x="104" y="207" fill="#58A6FF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="650">Applied AI Engineer  ·  AI Platform Architect</text>
+  <text x="104" y="246" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="19">From model inference to measurable business impact.</text>
+
+  <!-- chips -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="650">
+    <rect x="104" y="272" width="158" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="128" y="295" fill="#C9D1D9">COMPUTER VISION</text>
+    <rect x="276" y="272" width="132" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="303" y="295" fill="#C9D1D9">LLM AGENTS</text>
+    <rect x="422" y="272" width="148" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="447" y="295" fill="#C9D1D9">GPU INFERENCE</text>
+    <rect x="584" y="272" width="176" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="610" y="295" fill="#C9D1D9">PRODUCT SYSTEMS</text>
+  </g>
+
+  <!-- right terminal card -->
+  <g>
+    <rect x="835" y="74" width="285" height="210" rx="16" fill="#0D1117" stroke="#30363D"/>
+    <circle cx="858" cy="96" r="5" fill="#FF7B72"/><circle cx="876" cy="96" r="5" fill="#D29922"/><circle cx="894" cy="96" r="5" fill="#3FB950"/>
+    <text x="858" y="132" fill="#8B949E" font-family="SFMono-Regular, Consolas, monospace" font-size="14">$ deploy production_ai</text>
+    <text x="858" y="163" fill="#58A6FF" font-family="SFMono-Regular, Consolas, monospace" font-size="14">cv.pipeline</text>
+    <text x="985" y="163" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="14">READY</text>
+    <text x="858" y="190" fill="#A371F7" font-family="SFMono-Regular, Consolas, monospace" font-size="14">llm.agents</text>
+    <text x="985" y="190" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="14">READY</text>
+    <text x="858" y="217" fill="#2DD4BF" font-family="SFMono-Regular, Consolas, monospace" font-size="14">gpu.inference</text>
+    <text x="985" y="217" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="14">LIVE</text>
+    <text x="858" y="252" fill="#C9D1D9" font-family="SFMono-Regular, Consolas, monospace" font-size="14">status: shipping &gt; demoing</text>
+  </g>
+</svg>
