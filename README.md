@@ -55,7 +55,7 @@ My bias is toward **measurable impact, honest evaluation and systems that stay r
 <tr>
 <td width="25%" align="center"><b>🧠 20+ typed tools</b><br/><sub>production agent layer</sub></td>
 <td width="25%" align="center"><b>⚡ NVIDIA H200</b><br/><sub>self-hosted AI inference</sub></td>
-<td width="25%" align="center"><b>🤖 72B AWQ / 35B FP8</b><br/><sub>served with vLLM</sub></td>
+<td width="25%" align="center"><b>🤖 Self-hosted Qwen</b><br/><sub>Qwen2.5-VL 72B · Qwen3.6 35B<br/>served with vLLM</sub></td>
 <td width="25%" align="center"><b>📈 ~60% AI channel</b><br/><sub>share of production orders</sub></td>
 </tr>
 </table>
@@ -150,6 +150,7 @@ Public case study and runnable examples for a **production computer-vision merch
 
 <br/><br/>
 
+![Qwen](https://img.shields.io/badge/Qwen-self--hosted-6C5CE7?style=flat-square)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![vLLM](https://img.shields.io/badge/vLLM-111111?style=flat-square)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
