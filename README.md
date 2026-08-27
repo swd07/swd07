@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" width="100%" alt="Eduard Kharaev — Applied AI Engineer and AI Platform Architect" />
+<img src="./assets/profile-hero.svg" width="100%" alt="Eduard Kharaev — Applied AI Engineer and AI Solutions Architect" />
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Production+AI+%E2%80%A2+Computer+Vision+%E2%80%A2+LLM+Agents+%E2%80%A2+GPU+Inference;Building+systems+that+survive+real+users+and+real+data;From+prototype+to+production+with+measurable+impact" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Production+Retrieval+%E2%80%A2+Computer+Vision+%E2%80%A2+LLM+Agents+%E2%80%A2+GPU+Inference;Building+AI+systems+that+survive+real+users+and+real+data;From+prototype+to+production+with+measurable+evaluation" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -14,7 +14,17 @@
 
 <br/>
 
-<sub><b>Open to Senior Applied AI · Forward-Deployed Engineering · AI Platform Architecture roles</b> · international relocation</sub>
+![Remote](https://img.shields.io/badge/REMOTE-OPEN-238636?style=for-the-badge)
+![Contract](https://img.shields.io/badge/CONTRACT-AVAILABLE-1F6FEB?style=for-the-badge)
+![Relocation](https://img.shields.io/badge/RELOCATION-OPEN-8957E5?style=for-the-badge)
+
+<br/>
+
+<sub><b>Open to Senior Applied AI · Forward-Deployed Engineering · AI Solutions Architecture roles</b></sub>
+
+<br/><br/>
+
+**[Production](#-production-ai-end-to-end) · [Live system](#-what-production-looks-like) · [Engineering](#-featured-engineering) · [Stack](#-ai--ml-stack) · [Principles](#-engineering-dna) · [Activity](#-github-activity)**
 
 </div>
 
@@ -45,8 +55,8 @@ My bias is toward **measurable impact, honest evaluation and systems that stay r
 </td>
 <td width="25%" align="center">
 <h2>95.8%</h2>
-<b>SKU recognition</b><br/>
-<sub>production recognition accuracy</sub>
+<b>Brand precision</b><br/>
+<sub>confirmed end-to-end evaluation</sub>
 </td>
 </tr>
 </table>
@@ -56,7 +66,7 @@ My bias is toward **measurable impact, honest evaluation and systems that stay r
 <td width="25%" align="center"><b>🧠 20+ typed tools</b><br/><sub>production agent layer</sub></td>
 <td width="25%" align="center"><b>⚡ NVIDIA H200</b><br/><sub>self-hosted AI inference</sub></td>
 <td width="25%" align="center"><b>🤖 Self-hosted Qwen</b><br/><sub>Qwen2.5-VL 72B · Qwen3.6 35B<br/>served with vLLM</sub></td>
-<td width="25%" align="center"><b>📈 ~60% AI channel</b><br/><sub>share of production orders</sub></td>
+<td width="25%" align="center"><b>🎯 73.1% SKU precision</b><br/><sub>end-to-end retrieval + fusion</sub></td>
 </tr>
 </table>
 
@@ -100,7 +110,7 @@ flowchart LR
 
 Production case studies with **architecture, metrics, engineering decisions and evaluation methodology** — sanitized for public access.
 
-`Computer Vision` `LLM Agents` `Voice AI` `AIOps` `Full-stack AI`
+`Computer Vision` `Retrieval` `LLM Agents` `Voice AI` `AIOps` `Full-stack AI`
 
 **Inside:**
 - FMCG commercial AI operating system
@@ -115,15 +125,15 @@ Production case studies with **architecture, metrics, engineering decisions and 
 
 ### 👁 [Retail Shelf Detection →](https://github.com/swd07/retail-shelf-detection)
 
-Public case study and runnable examples for a **production computer-vision merchandising pipeline**.
+Public case study and runnable examples for a **production retrieval + computer-vision merchandising pipeline**.
 
-`Detection` `OCR` `VLM` `DINOv2` `Qdrant` `Guardrails`
+`Detection` `OCR` `VLM` `Qwen Embeddings` `Qdrant` `DINOv2` `ArcFace` `Guardrails`
 
 **Pipeline:**
 - object detection + crop extraction
 - OCR / vision-language text reading
-- visual embeddings + vector retrieval
-- SKU fusion / disambiguation
+- dense text retrieval + visual retrieval
+- attribute-aware reranking and multimodal fusion
 - explicit `Unknown` instead of confident errors
 - production evaluation and rollout gates
 
@@ -160,7 +170,7 @@ Public case study and runnable examples for a **production computer-vision merch
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
-`Computer Vision` · `OCR` · `Vision-Language Models` · `LLM Agents` · `Tool Calling` · `MCP` · `RAG` · `Vector Search` · `GPU Inference` · `Evaluation` · `Observability`
+`Computer Vision` · `OCR` · `Vision-Language Models` · `Dense Retrieval` · `Retrieval-Augmented Systems` · `Vector Search` · `LLM Agents` · `Tool Calling` · `MCP` · `GPU Inference` · `Evaluation` · `Observability`
 
 </div>
 
@@ -194,7 +204,7 @@ Public case study and runnable examples for a **production computer-vision merch
 
 ### Building AI systems that actually reach production.
 
-**Applied AI · Computer Vision · LLM Systems · AI Infrastructure · Product Engineering**
+**Applied AI · Production Retrieval · Computer Vision · LLM Systems · AI Infrastructure · Product Engineering**
 
 <br/>
 
