@@ -24,7 +24,7 @@
 
 <br/><br/>
 
-**[Production](#-production-ai-end-to-end) · [Live system](#-what-production-looks-like) · [Engineering](#-featured-engineering) · [Stack](#-ai--ml-stack) · [Principles](#-engineering-dna) · [Activity](#-github-activity)**
+**[Production](#-production-ai-end-to-end) · [Live system](#-what-production-looks-like) · [Engineering](#-featured-engineering) · [Stack](#-ai--ml-stack) · [Principles](#-engineering-dna) · [Repositories](#-repositories--recent-work)**
 
 </div>
 
@@ -141,17 +141,6 @@ Public case study and runnable examples for a **production retrieval + computer-
 </tr>
 </table>
 
-<div align="center">
-
-<a href="https://github.com/swd07/ai-platform-portfolio">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=swd07&repo=ai-platform-portfolio&theme=github_dark&hide_border=true" width="47%" alt="AI Platform Portfolio" />
-</a>
-<a href="https://github.com/swd07/retail-shelf-detection">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=swd07&repo=retail-shelf-detection&theme=github_dark&hide_border=true" width="47%" alt="Retail Shelf Detection" />
-</a>
-
-</div>
-
 ## 🛠 AI / ML stack
 
 <div align="center">
@@ -185,16 +174,17 @@ Public case study and runnable examples for a **production retrieval + computer-
 </tr>
 </table>
 
-## 📊 GitHub activity
+## 📦 Repositories & recent work
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=swd07&show_icons=true&hide_title=true&hide_border=true&theme=github_dark&include_all_commits=true" alt="Eduard's GitHub stats" />
-<img height="165" src="https://streak-stats.demolab.com?user=swd07&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+[![AI Platform Portfolio](https://img.shields.io/badge/AI_PLATFORM_PORTFOLIO-Production_Case_Studies-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/ai-platform-portfolio)
+[![Retail Shelf Detection](https://img.shields.io/badge/RETAIL_SHELF_DETECTION-Retrieval_%2B_CV-1F6FEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/retail-shelf-detection)
 
-<br/>
+<br/><br/>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=swd07&theme=github-compact&hide_border=true&area=true" alt="GitHub activity graph" />
+[![GitHub Profile](https://img.shields.io/badge/GITHUB-swd07-238636?style=flat-square&logo=github&logoColor=white)](https://github.com/swd07)
+[![Portfolio](https://img.shields.io/badge/CASE_STUDIES-Architecture_%C2%B7_Metrics_%C2%B7_Evaluation-8957E5?style=flat-square)](https://github.com/swd07/ai-platform-portfolio)
 
 </div>
 
