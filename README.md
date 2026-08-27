@@ -39,17 +39,17 @@ My bias is toward **measurable impact, honest evaluation and systems that stay r
 <table>
 <tr>
 <td width="25%" align="center">
-<h2>~2,000</h2>
+<h2>~3,800</h2>
 <b>Retail outlets</b><br/>
-<sub>connected to the AI sales platform</sub>
+<sub>~1,500 active monthly</sub>
 </td>
 <td width="25%" align="center">
-<h2>500–700</h2>
-<b>Orders / day</b><br/>
-<sub>through production workflows</sub>
+<h2>9–11k</h2>
+<b>Orders / month</b><br/>
+<sub>98% via platform</sub>
 </td>
 <td width="25%" align="center">
-<h2>0.68 → 0.91</h2>
+<h2>0.91</h2>
 <b>Detection F1</b><br/>
 <sub>on unseen shelf images</sub>
 </td>
@@ -75,7 +75,7 @@ My bias is toward **measurable impact, honest evaluation and systems that stay r
 ## 👁 What production looks like
 
 <div align="center">
-<a href="https://github.com/swd07/ai-platform-portfolio/blob/master/projects/shelf-detection.md">
+<a href="https://github.com/swd07/retail-shelf-detection">
 <img src="https://raw.githubusercontent.com/swd07/ai-platform-portfolio/master/assets/shelf-detection-live.jpg" width="92%" alt="Live retail shelf detection output" />
 </a>
 
@@ -86,16 +86,20 @@ My bias is toward **measurable impact, honest evaluation and systems that stay r
 
 ```mermaid
 flowchart LR
-    A[Retail shelf photo] --> B[Object detection]
+    A[Retail shelf photo] --> B[GroundingDINO detection]
     B --> C[Product crops]
-    C --> D[OCR / VLM]
-    C --> E[DINOv2 embeddings]
-    E --> F[Qdrant / KNN retrieval]
-    D --> G[Signal fusion + guardrails]
-    F --> G
-    G --> H{Enough evidence?}
-    H -->|Yes| I[SKU match]
-    H -->|No| J[Unknown / abstain]
+    C --> D[Qwen2.5-VL OCR / package evidence]
+    D --> E[Qwen3-Embedding-8B]
+    E --> F[Qdrant dense retrieval]
+    C --> G[DINOv2 visual k-NN]
+    C --> H[ArcFace metric retrieval]
+    F --> I[Deterministic fusion + guardrails]
+    G --> I
+    H --> I
+    D --> I
+    I --> J{Enough evidence?}
+    J -->|Yes| K[SKU / brand match]
+    J -->|No| L[Unknown / abstain]
 ```
 
 > **Production principle:** confidence is not correctness. A real AI system should be able to **abstain**, run in shadow before promotion, be evaluated on real populations and roll back cleanly.
@@ -113,7 +117,7 @@ Production case studies with **architecture, metrics, engineering decisions and 
 `Computer Vision` `Retrieval` `LLM Agents` `Voice AI` `AIOps` `Full-stack AI`
 
 **Inside:**
-- FMCG commercial AI operating system
+- FMCG commercial operating platform
 - retail shelf-recognition platform
 - real-time voice assistant
 - infrastructure monitoring agent
@@ -125,7 +129,7 @@ Production case studies with **architecture, metrics, engineering decisions and 
 
 ### 👁 [Retail Shelf Detection →](https://github.com/swd07/retail-shelf-detection)
 
-Public case study and runnable examples for a **production retrieval + computer-vision merchandising pipeline**.
+Technical case study and runnable examples for a **production-engineered retrieval + computer-vision merchandising pipeline**.
 
 `Detection` `OCR` `VLM` `Qwen Embeddings` `Qdrant` `DINOv2` `ArcFace` `Guardrails`
 
@@ -145,7 +149,7 @@ Public case study and runnable examples for a **production retrieval + computer-
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,docker,kubernetes,typescript,nextjs,redis,git,github,linux" alt="Core engineering stack" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,docker,typescript,nextjs,redis,git,github,linux" alt="Core engineering stack" />
 
 <br/><br/>
 
