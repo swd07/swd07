@@ -26,20 +26,17 @@
   <ellipse cx="1015" cy="84" rx="260" ry="205" fill="url(#glowPurple)" filter="url(#blur)"/>
   <ellipse cx="190" cy="300" rx="300" ry="120" fill="url(#glowBlue)" filter="url(#blur)"/>
 
-  <!-- engineering grid -->
   <g opacity="0.11" stroke="#8B949E">
     <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200"/>
     <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
   </g>
 
-  <!-- subtle pipeline trace -->
   <g opacity="0.34" stroke="url(#accent)" stroke-width="2">
     <path d="M790 318H862C882 318 890 300 890 284"/>
     <circle cx="790" cy="318" r="4" fill="#58A6FF" stroke="none"/>
     <circle cx="890" cy="284" r="4" fill="#2DD4BF" stroke="none"/>
   </g>
 
-  <!-- left accent -->
   <rect x="70" y="58" width="6" height="244" rx="3" fill="url(#accent)"/>
   <circle cx="73" cy="58" r="7" fill="#58A6FF"/>
 
@@ -48,7 +45,6 @@
   <text x="104" y="201" fill="#58A6FF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="650">Applied AI Engineer  ·  AI Solutions Architect</text>
   <text x="104" y="239" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="19">Production systems. Measurable evaluation. Explainable decisions.</text>
 
-  <!-- chips -->
   <g font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
     <rect x="104" y="270" width="132" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
     <text x="129" y="293" fill="#C9D1D9">RETRIEVAL</text>
@@ -60,7 +56,6 @@
     <text x="607" y="293" fill="#C9D1D9">GPU INFERENCE</text>
   </g>
 
-  <!-- right terminal card -->
   <g>
     <rect x="830" y="66" width="300" height="220" rx="17" fill="#0B111B" stroke="#30363D"/>
     <rect x="830" y="66" width="300" height="36" rx="17" fill="#111827"/>
@@ -73,7 +68,7 @@
     <text x="854" y="159" fill="#58A6FF" font-family="SFMono-Regular, Consolas, monospace" font-size="13">retrieval.pipeline</text>
     <text x="1029" y="159" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="13">LIVE</text>
     <text x="854" y="186" fill="#A371F7" font-family="SFMono-Regular, Consolas, monospace" font-size="13">llm.agents</text>
-    <text x="1029" y="186" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="13">LIVE</text>
+    <text x="1004" y="186" fill="#D29922" font-family="SFMono-Regular, Consolas, monospace" font-size="12">DEPLOYED</text>
     <text x="854" y="213" fill="#2DD4BF" font-family="SFMono-Regular, Consolas, monospace" font-size="13">gpu.inference</text>
     <text x="1029" y="213" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="13">LIVE</text>
     <text x="854" y="244" fill="#C9D1D9" font-family="SFMono-Regular, Consolas, monospace" font-size="13">eval: shadow → gate → prod</text>
