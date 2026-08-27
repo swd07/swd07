@@ -1,64 +1,82 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D1117"/>
-      <stop offset="0.55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#0B1220"/>
+      <stop stop-color="#080C14"/>
+      <stop offset="0.52" stop-color="#101827"/>
+      <stop offset="1" stop-color="#090E18"/>
     </linearGradient>
-    <linearGradient id="accent" x1="90" y1="60" x2="900" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="78" y1="50" x2="925" y2="318" gradientUnits="userSpaceOnUse">
       <stop stop-color="#58A6FF"/>
-      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="0.48" stop-color="#8B5CF6"/>
       <stop offset="1" stop-color="#2DD4BF"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1005 95) rotate(137) scale(320 260)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7C3AED" stop-opacity="0.30"/>
+    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientTransform="translate(1015 84) rotate(137) scale(335 265)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.36"/>
       <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientTransform="translate(190 300) rotate(-18) scale(360 170)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
   </defs>
 
   <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#30363D" stroke-opacity="0.9"/>
-  <ellipse cx="1010" cy="110" rx="245" ry="190" fill="url(#glow)" filter="url(#blur)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#30363D" stroke-opacity="0.95"/>
+  <ellipse cx="1015" cy="84" rx="260" ry="205" fill="url(#glowPurple)" filter="url(#blur)"/>
+  <ellipse cx="190" cy="300" rx="300" ry="120" fill="url(#glowBlue)" filter="url(#blur)"/>
 
-  <!-- subtle engineering grid -->
-  <g opacity="0.12" stroke="#8B949E">
+  <!-- engineering grid -->
+  <g opacity="0.11" stroke="#8B949E">
     <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200"/>
     <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
   </g>
 
-  <!-- left accent -->
-  <rect x="70" y="64" width="6" height="230" rx="3" fill="url(#accent)"/>
-  <circle cx="73" cy="64" r="7" fill="#58A6FF"/>
+  <!-- subtle pipeline trace -->
+  <g opacity="0.34" stroke="url(#accent)" stroke-width="2">
+    <path d="M790 318H862C882 318 890 300 890 284"/>
+    <circle cx="790" cy="318" r="4" fill="#58A6FF" stroke="none"/>
+    <circle cx="890" cy="284" r="4" fill="#2DD4BF" stroke="none"/>
+  </g>
 
-  <text x="104" y="105" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="4">PRODUCTION AI · SYSTEMS · ENGINEERING</text>
-  <text x="102" y="164" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="750" letter-spacing="1">EDUARD KHARAEV</text>
-  <text x="104" y="207" fill="#58A6FF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="650">Applied AI Engineer  ·  AI Platform Architect</text>
-  <text x="104" y="246" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="19">From model inference to measurable business impact.</text>
+  <!-- left accent -->
+  <rect x="70" y="58" width="6" height="244" rx="3" fill="url(#accent)"/>
+  <circle cx="73" cy="58" r="7" fill="#58A6FF"/>
+
+  <text x="104" y="96" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3.6">PRODUCTION AI · RETRIEVAL · AGENTS · PLATFORM</text>
+  <text x="102" y="156" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="49" font-weight="760" letter-spacing="1">EDUARD KHARAEV</text>
+  <text x="104" y="201" fill="#58A6FF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="650">Applied AI Engineer  ·  AI Solutions Architect</text>
+  <text x="104" y="239" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="19">Production systems. Measurable evaluation. Explainable decisions.</text>
 
   <!-- chips -->
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="650">
-    <rect x="104" y="272" width="158" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
-    <text x="128" y="295" fill="#C9D1D9">COMPUTER VISION</text>
-    <rect x="276" y="272" width="132" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
-    <text x="303" y="295" fill="#C9D1D9">LLM AGENTS</text>
-    <rect x="422" y="272" width="148" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
-    <text x="447" y="295" fill="#C9D1D9">GPU INFERENCE</text>
-    <rect x="584" y="272" width="176" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
-    <text x="610" y="295" fill="#C9D1D9">PRODUCT SYSTEMS</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+    <rect x="104" y="270" width="132" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="129" y="293" fill="#C9D1D9">RETRIEVAL</text>
+    <rect x="248" y="270" width="143" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="275" y="293" fill="#C9D1D9">LLM AGENTS</text>
+    <rect x="403" y="270" width="167" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="428" y="293" fill="#C9D1D9">COMPUTER VISION</text>
+    <rect x="582" y="270" width="153" height="36" rx="18" fill="#161B22" stroke="#30363D"/>
+    <text x="607" y="293" fill="#C9D1D9">GPU INFERENCE</text>
   </g>
 
   <!-- right terminal card -->
   <g>
-    <rect x="835" y="74" width="285" height="210" rx="16" fill="#0D1117" stroke="#30363D"/>
-    <circle cx="858" cy="96" r="5" fill="#FF7B72"/><circle cx="876" cy="96" r="5" fill="#D29922"/><circle cx="894" cy="96" r="5" fill="#3FB950"/>
-    <text x="858" y="132" fill="#8B949E" font-family="SFMono-Regular, Consolas, monospace" font-size="14">$ deploy production_ai</text>
-    <text x="858" y="163" fill="#58A6FF" font-family="SFMono-Regular, Consolas, monospace" font-size="14">cv.pipeline</text>
-    <text x="985" y="163" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="14">READY</text>
-    <text x="858" y="190" fill="#A371F7" font-family="SFMono-Regular, Consolas, monospace" font-size="14">llm.agents</text>
-    <text x="985" y="190" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="14">READY</text>
-    <text x="858" y="217" fill="#2DD4BF" font-family="SFMono-Regular, Consolas, monospace" font-size="14">gpu.inference</text>
-    <text x="985" y="217" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="14">LIVE</text>
-    <text x="858" y="252" fill="#C9D1D9" font-family="SFMono-Regular, Consolas, monospace" font-size="14">status: shipping &gt; demoing</text>
+    <rect x="830" y="66" width="300" height="220" rx="17" fill="#0B111B" stroke="#30363D"/>
+    <rect x="830" y="66" width="300" height="36" rx="17" fill="#111827"/>
+    <circle cx="854" cy="84" r="5" fill="#FF7B72"/>
+    <circle cx="872" cy="84" r="5" fill="#D29922"/>
+    <circle cx="890" cy="84" r="5" fill="#3FB950"/>
+    <text x="1006" y="89" fill="#6E7681" font-family="SFMono-Regular, Consolas, monospace" font-size="11">prod://ai</text>
+
+    <text x="854" y="128" fill="#8B949E" font-family="SFMono-Regular, Consolas, monospace" font-size="13">$ system status</text>
+    <text x="854" y="159" fill="#58A6FF" font-family="SFMono-Regular, Consolas, monospace" font-size="13">retrieval.pipeline</text>
+    <text x="1029" y="159" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="13">LIVE</text>
+    <text x="854" y="186" fill="#A371F7" font-family="SFMono-Regular, Consolas, monospace" font-size="13">llm.agents</text>
+    <text x="1029" y="186" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="13">LIVE</text>
+    <text x="854" y="213" fill="#2DD4BF" font-family="SFMono-Regular, Consolas, monospace" font-size="13">gpu.inference</text>
+    <text x="1029" y="213" fill="#3FB950" font-family="SFMono-Regular, Consolas, monospace" font-size="13">LIVE</text>
+    <text x="854" y="244" fill="#C9D1D9" font-family="SFMono-Regular, Consolas, monospace" font-size="13">eval: shadow → gate → prod</text>
+    <text x="854" y="268" fill="#8B949E" font-family="SFMono-Regular, Consolas, monospace" font-size="12">shipping systems, not demos</text>
   </g>
 </svg>
