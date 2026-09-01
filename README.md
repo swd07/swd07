@@ -108,38 +108,49 @@ flowchart LR
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🧠 [AI Platform Portfolio →](https://github.com/swd07/ai-platform-portfolio)
 
-Production case studies with **architecture, metrics, engineering decisions and evaluation methodology** — sanitized for public access.
+Production case studies with **architecture, metrics, engineering decisions and evaluation methodology**.
 
-`Computer Vision` `Retrieval` `LLM Agents` `Voice AI` `AIOps` `Full-stack AI`
+`AI Platform` `Agents` `AIOps` `Voice AI` `Product Engineering`
 
-**Inside:**
+**Includes:**
 - FMCG commercial operating platform
-- retail shelf-recognition platform
-- real-time voice assistant
 - infrastructure monitoring agent
-- social-media intelligence
-- coaching / fitness platform
+- real-time voice assistant
+- coaching / fitness product
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 👁 [Retail Shelf Detection →](https://github.com/swd07/retail-shelf-detection)
 
-Technical case study and runnable examples for a **production-engineered retrieval + computer-vision merchandising pipeline**.
+Production-engineered **retrieval + computer-vision merchandising pipeline** with explicit uncertainty.
 
-`Detection` `OCR` `VLM` `Qwen Embeddings` `Qdrant` `DINOv2` `ArcFace` `Guardrails`
+`Detection` `OCR` `VLM` `Qdrant` `DINOv2` `ArcFace`
 
-**Pipeline:**
-- object detection + crop extraction
-- OCR / vision-language text reading
-- dense text retrieval + visual retrieval
-- attribute-aware reranking and multimodal fusion
-- explicit `Unknown` instead of confident errors
-- production evaluation and rollout gates
+**Evidence:**
+- 95.8% brand precision
+- 73.1% SKU precision
+- 47k-box replay harness
+- shadow → active rollout gates
+
+</td>
+<td width="33%" valign="top">
+
+### 📈 [AI Marketing & Brand Growth →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
+
+Multi-source **marketing intelligence platform** connecting social, website, search and campaign analytics.
+
+`Instagram API` `Search` `Traffic` `Content Intelligence` `AI Reporting`
+
+**Measured window:**
+- +2,859 Instagram followers
+- +88% website visits
+- 17.6% Google Search CTR
+- 2.4 average search position
 
 </td>
 </tr>
@@ -163,7 +174,7 @@ Technical case study and runnable examples for a **production-engineered retriev
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
-`Computer Vision` · `OCR` · `Vision-Language Models` · `Dense Retrieval` · `Retrieval-Augmented Systems` · `Vector Search` · `LLM Agents` · `Tool Calling` · `MCP` · `GPU Inference` · `Evaluation` · `Observability`
+`Computer Vision` · `OCR` · `Vision-Language Models` · `Dense Retrieval` · `Retrieval-Augmented Systems` · `Vector Search` · `LLM Agents` · `Tool Calling` · `MCP` · `GPU Inference` · `Evaluation` · `Observability` · `Marketing Intelligence`
 
 </div>
 
@@ -184,6 +195,7 @@ Technical case study and runnable examples for a **production-engineered retriev
 
 [![AI Platform Portfolio](https://img.shields.io/badge/AI_PLATFORM_PORTFOLIO-Production_Case_Studies-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/ai-platform-portfolio)
 [![Retail Shelf Detection](https://img.shields.io/badge/RETAIL_SHELF_DETECTION-Retrieval_%2B_CV-1F6FEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/retail-shelf-detection)
+[![Marketing Platform](https://img.shields.io/badge/MARKETING_INTELLIGENCE-Brand_Growth-8957E5?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
 
 <br/><br/>
 
@@ -198,7 +210,7 @@ Technical case study and runnable examples for a **production-engineered retriev
 
 ### Building AI systems that actually reach production.
 
-**Applied AI · Production Retrieval · Computer Vision · LLM Systems · AI Infrastructure · Product Engineering**
+**Applied AI · Production Retrieval · Computer Vision · LLM Systems · AI Infrastructure · Growth Systems · Product Engineering**
 
 <br/>
 
