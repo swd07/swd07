@@ -108,6 +108,23 @@ flowchart LR
 
 <table>
 <tr>
+<td width="100%" colspan="2" valign="top">
+
+### 🧠 [AI Chaban2 — Commercial Operating Platform →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/chaban.md)
+
+Production **field-sales and commercial-operations platform** integrating offline workflows, 1C ERP, KPI/BI, forecasting, merchandising AI, self-hosted inference and operational agents.
+
+`Platform Architecture` `Offline-first` `1C ERP` `PostgreSQL` `AI Agents` `Production Operations`
+
+**Production evidence:**
+- ~3,800 retail outlets · ~1,500 active monthly
+- 9–11k company orders/month · 98% with platform-generated ID
+- 45.8k / 46.5k platform orders created offline
+- 103 GB PostgreSQL · ~278M rows
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 👁 [Retail Shelf Detection →](https://github.com/swd07/retail-shelf-detection)
@@ -243,6 +260,7 @@ Internal **release orchestration control plane** connecting Git state to multi-e
 <div align="center">
 
 [![AI Platform Portfolio](https://img.shields.io/badge/AI_PLATFORM_PORTFOLIO-Production_Case_Studies-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/ai-platform-portfolio)
+[![AI Chaban2](https://img.shields.io/badge/AI_CHABAN2-Commercial_Operating_Platform-238636?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/chaban.md)
 [![Retail Shelf Detection](https://img.shields.io/badge/RETAIL_SHELF_DETECTION-Retrieval_%2B_CV-1F6FEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/retail-shelf-detection)
 [![Jarvis](https://img.shields.io/badge/JARVIS-Agent_Orchestrator-0A84FF?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
 [![Marketing Platform](https://img.shields.io/badge/MARKETING_INTELLIGENCE-Brand_Growth-8957E5?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
