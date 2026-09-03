@@ -108,22 +108,22 @@ flowchart LR
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 🧠 [AI Platform Portfolio →](https://github.com/swd07/ai-platform-portfolio)
 
 Production case studies with **architecture, metrics, engineering decisions and evaluation methodology**.
 
-`AI Platform` `Agents` `AIOps` `Voice AI` `Product Engineering`
+`AI Platform` `Agents` `Architecture` `Voice AI` `Product Engineering`
 
 **Includes:**
 - FMCG commercial operating platform
-- infrastructure monitoring agent
+- AI infrastructure control plane & security operations
 - real-time voice assistant
 - coaching / fitness product
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 👁 [Retail Shelf Detection →](https://github.com/swd07/retail-shelf-detection)
 
@@ -138,7 +138,9 @@ Production-engineered **retrieval + computer-vision merchandising pipeline** wit
 - shadow → active rollout gates
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 📈 [AI Marketing & Brand Growth →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
 
@@ -151,6 +153,21 @@ Multi-source **marketing intelligence platform** connecting social, website, sea
 - +88% website visits
 - 17.6% Google Search CTR
 - 2.4 average search position
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡 [AI Infrastructure Control Plane →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/infra-monitoring-agent.md)
+
+Self-hosted **operations and security layer for production AI infrastructure** with deterministic detection and AI-assisted investigation.
+
+`AIOps` `Security` `H200 Observability` `Qwen` `Tool Calling` `Incident Response`
+
+**Production evidence:**
+- 15+ detector types
+- ~22 monitored endpoints
+- 60-second autonomous watch loop
+- 152 alerts recorded in Aug 2026
 
 </td>
 </tr>
@@ -196,6 +213,7 @@ Multi-source **marketing intelligence platform** connecting social, website, sea
 [![AI Platform Portfolio](https://img.shields.io/badge/AI_PLATFORM_PORTFOLIO-Production_Case_Studies-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/ai-platform-portfolio)
 [![Retail Shelf Detection](https://img.shields.io/badge/RETAIL_SHELF_DETECTION-Retrieval_%2B_CV-1F6FEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/retail-shelf-detection)
 [![Marketing Platform](https://img.shields.io/badge/MARKETING_INTELLIGENCE-Brand_Growth-8957E5?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
+[![AI Infra Control Plane](https://img.shields.io/badge/AI_INFRA_CONTROL_PLANE-Security_%26_AIOps-E6522C?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/infra-monitoring-agent.md)
 
 <br/><br/>
 
