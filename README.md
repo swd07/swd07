@@ -108,22 +108,22 @@ flowchart LR
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 🧠 [AI Platform Portfolio →](https://github.com/swd07/ai-platform-portfolio)
 
 Production case studies with **architecture, metrics, engineering decisions and evaluation methodology**.
 
-`AI Platform` `Agents` `Architecture` `Voice AI` `Product Engineering`
+`AI Platform` `Agents` `Architecture` `Product Engineering`
 
 **Includes:**
 - FMCG commercial operating platform
-- AI infrastructure control plane & security operations
-- voice-first multi-agent orchestrator
-- coaching / fitness product
+- AI infrastructure control plane
+- voice-first multi-agent orchestration
+- fitness / coaching product
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 👁 [Retail Shelf Detection →](https://github.com/swd07/retail-shelf-detection)
 
@@ -138,30 +138,30 @@ Production-engineered **retrieval + computer-vision merchandising pipeline** wit
 - shadow → active rollout gates
 
 </td>
-<td width="33%" valign="top">
-
-### 🤖 [Jarvis Agent Orchestrator →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
-
-Voice-first **executive and operations command center** that delegates bounded work across specialized agents and returns grounded results.
-
-`WebRTC` `Agent Registry` `Command Queues` `Tool Calling` `Executive AI`
-
-**Capabilities:**
-- live agent heartbeat / task / queue state
-- allowlisted agent-command dispatch
-- project risks, deadlines & blockers
-- safe voice-opened dashboards
-
-</td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+### 🤖 [Jarvis Orchestrator →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
+
+Voice-first **operations and executive command center** that delegates bounded work across specialized agents.
+
+`WebRTC` `Agent Registry` `Command Queue` `Executive AI`
+
+**Capabilities:**
+- live agent state and heartbeat
+- safe agent-command dispatch
+- risks, blockers and deadlines
+- voice-opened dashboards
+
+</td>
 <td width="50%" valign="top">
 
 ### 📈 [AI Marketing & Brand Growth →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
 
 Multi-source **marketing intelligence platform** connecting social, website, search and campaign analytics.
 
-`Instagram API` `Search` `Traffic` `Content Intelligence` `AI Reporting`
+`Instagram API` `Search` `Traffic` `Content Intelligence`
 
 **Measured window:**
 - +2,859 Instagram followers
@@ -170,13 +170,15 @@ Multi-source **marketing intelligence platform** connecting social, website, sea
 - 2.4 average search position
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td width="100%" colspan="2" valign="top">
 
 ### 🛡 [AI Infrastructure Control Plane →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/infra-monitoring-agent.md)
 
 Self-hosted **operations and security layer for production AI infrastructure** with deterministic detection and AI-assisted investigation.
 
-`AIOps` `Security` `H200 Observability` `Qwen` `Tool Calling` `Incident Response`
+`AIOps` `Security` `H200 Observability` `Qwen` `Incident Response`
 
 **Production evidence:**
 - 15+ detector types
