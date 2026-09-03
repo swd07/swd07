@@ -24,7 +24,7 @@
 
 <br/><br/>
 
-**[Production](#-production-ai-end-to-end) · [Live system](#-what-production-looks-like) · [Engineering](#-featured-engineering) · [Stack](#-ai--ml-stack) · [Principles](#-engineering-dna) · [Repositories](#-repositories--recent-work)**
+**[Production](#-production-ai-end-to-end) · [Live system](#-what-production-looks-like) · [Engineering](#-featured-engineering) · [Stack](#-ai--ml-stack) · [Principles](#-engineering-dna)**
 
 </div>
 
@@ -110,7 +110,7 @@ flowchart LR
 <tr>
 <td width="100%" colspan="2" valign="top">
 
-### 🧠 [AI Chaban2 — Commercial Operating Platform →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/chaban.md)
+[![AI Chaban2 — Commercial Operating Platform](https://img.shields.io/badge/AI_CHABAN2-COMMERCIAL_OPERATING_PLATFORM-238636?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/chaban.md)
 
 Production **field-sales and commercial-operations platform** integrating offline workflows, 1C ERP, KPI/BI, forecasting, merchandising AI, self-hosted inference and operational agents.
 
@@ -127,7 +127,7 @@ Production **field-sales and commercial-operations platform** integrating offlin
 <tr>
 <td width="50%" valign="top">
 
-### 👁 [Retail Shelf Detection →](https://github.com/swd07/retail-shelf-detection)
+[![Retail Shelf Detection — Retrieval + CV](https://img.shields.io/badge/RETAIL_SHELF_DETECTION-RETRIEVAL_%2B_CV-1F6FEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/retail-shelf-detection)
 
 Production-engineered **retrieval + computer-vision merchandising pipeline** with explicit uncertainty.
 
@@ -142,7 +142,7 @@ Production-engineered **retrieval + computer-vision merchandising pipeline** wit
 </td>
 <td width="50%" valign="top">
 
-### 🤖 [Jarvis Orchestrator →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
+[![Jarvis — Agent Orchestrator](https://img.shields.io/badge/JARVIS-AGENT_ORCHESTRATOR-0A84FF?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
 
 Voice-first **operations and executive command center** that delegates bounded work across specialized agents.
 
@@ -159,7 +159,7 @@ Voice-first **operations and executive command center** that delegates bounded w
 <tr>
 <td width="50%" valign="top">
 
-### 📈 [AI Marketing & Brand Growth →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
+[![Marketing Intelligence — Brand Growth](https://img.shields.io/badge/MARKETING_INTELLIGENCE-BRAND_GROWTH-8957E5?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
 
 Multi-source **marketing intelligence platform** connecting social, website, search and campaign analytics.
 
@@ -174,7 +174,7 @@ Multi-source **marketing intelligence platform** connecting social, website, sea
 </td>
 <td width="50%" valign="top">
 
-### 🛡 [AI Infrastructure Control Plane →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/infra-monitoring-agent.md)
+[![AI Infra Control Plane — Security & AIOps](https://img.shields.io/badge/AI_INFRA_CONTROL_PLANE-SECURITY_%26_AIOPS-E6522C?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/infra-monitoring-agent.md)
 
 Self-hosted **operations and security layer for production AI infrastructure** with deterministic detection and AI-assisted investigation.
 
@@ -191,7 +191,7 @@ Self-hosted **operations and security layer for production AI infrastructure** w
 <tr>
 <td width="50%" valign="top">
 
-### 🏭 [Operations & Supply Planning →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/operations-supply-planning-agent.md)
+[![Operations Planning — Action Agent](https://img.shields.io/badge/OPERATIONS_PLANNING-ACTION_AGENT-238636?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/operations-supply-planning-agent.md)
 
 Private **operations and supply-planning platform** with an embedded self-hosted action agent for bounded business workflows.
 
@@ -206,7 +206,7 @@ Private **operations and supply-planning platform** with an embedded self-hosted
 </td>
 <td width="50%" valign="top">
 
-### 🚀 [Developer Platform →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/developer-delivery-control-plane.md)
+[![Developer Platform — Release Orchestration](https://img.shields.io/badge/DEVELOPER_PLATFORM-RELEASE_ORCHESTRATION-1F6FEB?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/developer-delivery-control-plane.md)
 
 Internal **release orchestration control plane** connecting Git state to multi-environment delivery and runtime verification.
 
@@ -254,26 +254,6 @@ Internal **release orchestration control plane** connecting Git state to multi-e
 <td width="25%" valign="top"><b>🏗 End-to-end ownership</b><br/><br/><sub>Model layer, backend, data, integrations, frontend, deployment and operations.</sub></td>
 </tr>
 </table>
-
-## 📦 Repositories & recent work
-
-<div align="center">
-
-[![AI Platform Portfolio](https://img.shields.io/badge/AI_PLATFORM_PORTFOLIO-Production_Case_Studies-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/ai-platform-portfolio)
-[![AI Chaban2](https://img.shields.io/badge/AI_CHABAN2-Commercial_Operating_Platform-238636?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/chaban.md)
-[![Retail Shelf Detection](https://img.shields.io/badge/RETAIL_SHELF_DETECTION-Retrieval_%2B_CV-1F6FEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/retail-shelf-detection)
-[![Jarvis](https://img.shields.io/badge/JARVIS-Agent_Orchestrator-0A84FF?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
-[![Marketing Platform](https://img.shields.io/badge/MARKETING_INTELLIGENCE-Brand_Growth-8957E5?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
-[![AI Infra Control Plane](https://img.shields.io/badge/AI_INFRA_CONTROL_PLANE-Security_%26_AIOps-E6522C?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/infra-monitoring-agent.md)
-[![Operations Planning](https://img.shields.io/badge/OPERATIONS_PLANNING-Action_Agent-238636?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/operations-supply-planning-agent.md)
-[![Developer Platform](https://img.shields.io/badge/DEVELOPER_PLATFORM-Release_Orchestration-1F6FEB?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/developer-delivery-control-plane.md)
-
-<br/><br/>
-
-[![GitHub Profile](https://img.shields.io/badge/GITHUB-swd07-238636?style=flat-square&logo=github&logoColor=white)](https://github.com/swd07)
-[![Portfolio](https://img.shields.io/badge/CASE_STUDIES-Architecture_%C2%B7_Metrics_%C2%B7_Evaluation-8957E5?style=flat-square)](https://github.com/swd07/ai-platform-portfolio)
-
-</div>
 
 ---
 
