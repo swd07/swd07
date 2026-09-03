@@ -108,7 +108,7 @@ flowchart LR
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🧠 [AI Platform Portfolio →](https://github.com/swd07/ai-platform-portfolio)
 
@@ -119,11 +119,11 @@ Production case studies with **architecture, metrics, engineering decisions and 
 **Includes:**
 - FMCG commercial operating platform
 - AI infrastructure control plane & security operations
-- real-time voice assistant
+- voice-first multi-agent orchestrator
 - coaching / fitness product
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 👁 [Retail Shelf Detection →](https://github.com/swd07/retail-shelf-detection)
 
@@ -136,6 +136,21 @@ Production-engineered **retrieval + computer-vision merchandising pipeline** wit
 - 73.1% SKU precision
 - 47k-box replay harness
 - shadow → active rollout gates
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 [Jarvis Agent Orchestrator →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
+
+Voice-first **executive and operations command center** that delegates bounded work across specialized agents and returns grounded results.
+
+`WebRTC` `Agent Registry` `Command Queues` `Tool Calling` `Executive AI`
+
+**Capabilities:**
+- live agent heartbeat / task / queue state
+- allowlisted agent-command dispatch
+- project risks, deadlines & blockers
+- safe voice-opened dashboards
 
 </td>
 </tr>
@@ -191,7 +206,7 @@ Self-hosted **operations and security layer for production AI infrastructure** w
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
-`Computer Vision` · `OCR` · `Vision-Language Models` · `Dense Retrieval` · `Retrieval-Augmented Systems` · `Vector Search` · `LLM Agents` · `Tool Calling` · `MCP` · `GPU Inference` · `Evaluation` · `Observability` · `Marketing Intelligence`
+`Computer Vision` · `OCR` · `Vision-Language Models` · `Dense Retrieval` · `Retrieval-Augmented Systems` · `Vector Search` · `LLM Agents` · `Multi-Agent Orchestration` · `Tool Calling` · `MCP` · `GPU Inference` · `Evaluation` · `Observability` · `Marketing Intelligence`
 
 </div>
 
@@ -212,6 +227,7 @@ Self-hosted **operations and security layer for production AI infrastructure** w
 
 [![AI Platform Portfolio](https://img.shields.io/badge/AI_PLATFORM_PORTFOLIO-Production_Case_Studies-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/ai-platform-portfolio)
 [![Retail Shelf Detection](https://img.shields.io/badge/RETAIL_SHELF_DETECTION-Retrieval_%2B_CV-1F6FEB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swd07/retail-shelf-detection)
+[![Jarvis](https://img.shields.io/badge/JARVIS-Agent_Orchestrator-0A84FF?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
 [![Marketing Platform](https://img.shields.io/badge/MARKETING_INTELLIGENCE-Brand_Growth-8957E5?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
 [![AI Infra Control Plane](https://img.shields.io/badge/AI_INFRA_CONTROL_PLANE-Security_%26_AIOps-E6522C?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/infra-monitoring-agent.md)
 
@@ -228,7 +244,7 @@ Self-hosted **operations and security layer for production AI infrastructure** w
 
 ### Building AI systems that actually reach production.
 
-**Applied AI · Production Retrieval · Computer Vision · LLM Systems · AI Infrastructure · Growth Systems · Product Engineering**
+**Applied AI · Production Retrieval · Computer Vision · LLM Systems · Multi-Agent Orchestration · AI Infrastructure · Growth Systems · Product Engineering**
 
 <br/>
 
