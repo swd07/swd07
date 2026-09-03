@@ -110,21 +110,6 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [AI Platform Portfolio →](https://github.com/swd07/ai-platform-portfolio)
-
-Production case studies with **architecture, metrics, engineering decisions and evaluation methodology**.
-
-`AI Platform` `Agents` `Architecture` `Product Engineering`
-
-**Includes:**
-- FMCG commercial operating platform
-- AI infrastructure control plane
-- voice-first multi-agent orchestration
-- fitness / coaching product
-
-</td>
-<td width="50%" valign="top">
-
 ### 👁 [Retail Shelf Detection →](https://github.com/swd07/retail-shelf-detection)
 
 Production-engineered **retrieval + computer-vision merchandising pipeline** with explicit uncertainty.
@@ -138,8 +123,6 @@ Production-engineered **retrieval + computer-vision merchandising pipeline** wit
 - shadow → active rollout gates
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🤖 [Jarvis Orchestrator →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
@@ -155,6 +138,8 @@ Voice-first **operations and executive command center** that delegates bounded w
 - voice-opened dashboards
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📈 [AI Marketing & Brand Growth →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
@@ -170,9 +155,7 @@ Multi-source **marketing intelligence platform** connecting social, website, sea
 - 2.4 average search position
 
 </td>
-</tr>
-<tr>
-<td width="100%" colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 🛡 [AI Infrastructure Control Plane →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/infra-monitoring-agent.md)
 
@@ -185,6 +168,38 @@ Self-hosted **operations and security layer for production AI infrastructure** w
 - ~22 monitored endpoints
 - 60-second autonomous watch loop
 - 152 alerts recorded in Aug 2026
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏭 [Operations & Supply Planning →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/operations-supply-planning-agent.md)
+
+Private **operations and supply-planning platform** with an embedded self-hosted action agent for bounded business workflows.
+
+`Supply Planning` `Scenario Planning` `Qwen` `Tool Calling`
+
+**Capabilities:**
+- stock and supply-plan workflows
+- alternative planning scenarios
+- 11 bounded action/UI tools
+- server-owned user identity
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 [Developer Platform →](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/developer-delivery-control-plane.md)
+
+Internal **release orchestration control plane** connecting Git state to multi-environment delivery and runtime verification.
+
+`Git` `FastAPI` `Next.js` `Release Engineering` `PM2`
+
+**Workflow:**
+- preview → staging → production
+- selective commit promotion
+- dependency preflight + build
+- conflict handling and recovery
 
 </td>
 </tr>
@@ -208,7 +223,7 @@ Self-hosted **operations and security layer for production AI infrastructure** w
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
-`Computer Vision` · `OCR` · `Vision-Language Models` · `Dense Retrieval` · `Retrieval-Augmented Systems` · `Vector Search` · `LLM Agents` · `Multi-Agent Orchestration` · `Tool Calling` · `MCP` · `GPU Inference` · `Evaluation` · `Observability` · `Marketing Intelligence`
+`Computer Vision` · `OCR` · `Vision-Language Models` · `Dense Retrieval` · `Retrieval-Augmented Systems` · `Vector Search` · `LLM Agents` · `Multi-Agent Orchestration` · `Tool Calling` · `MCP` · `GPU Inference` · `Evaluation` · `Observability` · `Business Action Agents` · `Release Engineering` · `Marketing Intelligence`
 
 </div>
 
@@ -232,6 +247,8 @@ Self-hosted **operations and security layer for production AI infrastructure** w
 [![Jarvis](https://img.shields.io/badge/JARVIS-Agent_Orchestrator-0A84FF?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/jarvis.md)
 [![Marketing Platform](https://img.shields.io/badge/MARKETING_INTELLIGENCE-Brand_Growth-8957E5?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/marketing-platform.md)
 [![AI Infra Control Plane](https://img.shields.io/badge/AI_INFRA_CONTROL_PLANE-Security_%26_AIOps-E6522C?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/infra-monitoring-agent.md)
+[![Operations Planning](https://img.shields.io/badge/OPERATIONS_PLANNING-Action_Agent-238636?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/operations-supply-planning-agent.md)
+[![Developer Platform](https://img.shields.io/badge/DEVELOPER_PLATFORM-Release_Orchestration-1F6FEB?style=for-the-badge)](https://github.com/swd07/ai-platform-portfolio/blob/master/projects/developer-delivery-control-plane.md)
 
 <br/><br/>
 
@@ -246,7 +263,7 @@ Self-hosted **operations and security layer for production AI infrastructure** w
 
 ### Building AI systems that actually reach production.
 
-**Applied AI · Production Retrieval · Computer Vision · LLM Systems · Multi-Agent Orchestration · AI Infrastructure · Growth Systems · Product Engineering**
+**Applied AI · Production Retrieval · Computer Vision · LLM Systems · Multi-Agent Orchestration · AI Infrastructure · Business Action Agents · Release Engineering · Growth Systems · Product Engineering**
 
 <br/>
 
